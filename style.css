@@ -1,0 +1,19 @@
+body.theme-light {
+    background-color: white;
+    color: black;
+}
+
+body.theme-dark {
+    background-color: black;
+    color: white;
+}
+
+body.theme-colorful {
+    background-color: #ffcc00;
+    color: #003366;
+}
+
+.list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+}

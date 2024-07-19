@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My List</h1>
+        <ul id="item-list" class="list-group"></ul>
+
+        <h2>Preferences</h2>
+        <div id="preferences-panel">
+            <div class="form-group">
+                <label for="theme-select">Select Theme:</label>
+                <select id="theme-select" class="form-control">
+                    <option value="theme-light">Light</option>
+                    <option value="theme-dark">Dark</option>
+                    <option value="theme-colorful">Colorful</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="list-style-select">Select List Style:</label>
+                <select id="list-style-select" class="form-control">
+                    <option value="list-group">Default</option>
+                    <option value="list-group-flush">Flush</option>
+                    <option value="list-group-horizontal">Horizontal</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
